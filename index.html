@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="div1"></div><br>
+    <div id="div2"></div>
+    <input type="button" value="Enter" id="btn01">
+
+
+    <script>
+
+        //Jquery using object
+        $("#div1").click(function () {
+
+            alert("Hansaka");
+        });
+
+
+        //Jquery using button
+        $("#btn01").hover(function () {
+
+
+            $("#btn01").css("background-color", "green");
+        })
+
+        //Jquery using div
+        $("#div2").click(function () {
+
+
+            $(this).css("display", "none");
+
+        });
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+#div1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+#btn01 {
+  background-color: blue;
+}
+
+#div2 {
+  background-color: green;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
